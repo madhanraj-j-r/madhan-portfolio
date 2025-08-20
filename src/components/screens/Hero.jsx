@@ -25,7 +25,7 @@ const Hero = () => {
                 <TypeAnimation
                     className='text-3xl sm:text-4xl font-poppins font-semibold'
                     sequence={[
-                        'Hi, I am Madhanraj 👋',
+                        'Hi, I am Madhanraj J R 👋',
                         1000,
                     ]}
                     wrapper="span"
