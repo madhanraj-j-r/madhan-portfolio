@@ -2,7 +2,7 @@ import React from 'react'
 import Maddy from "../../assets/Maddy.jpeg";
 import { TypeAnimation } from 'react-type-animation';
 import { useFileDownload } from "../../hooks/useFileDownload";
-import ResumePDF from "../../assets/downloadables/Madhanraj--Resume.pdf";
+import ResumePDF from "../../assets/Downloadables/Madhanraj-Resume.pdf";
 
 const Hero = () => {
     const { status, handleDownload } = useFileDownload();
