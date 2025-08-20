@@ -19,7 +19,7 @@ const AboutMe = () => {
                             Pages Under Construction
                         </h1>
                         <p className="text-gray-600 dark:text-gray-300 mb-6">
-                            We’re building something awesome. Please check back soon!
+                            I'm building something awesome. Please check back soon!
                         </p>
 
 

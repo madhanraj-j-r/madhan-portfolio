@@ -9,7 +9,6 @@ const Hero = () => {
 
     return (
         <section className="py-48 sm:py-16 w-full h-auto md:min-h-screen grid grid-cols-1 md:grid-cols-2 items-center justify-evenly bg-linear-[25deg,#1E344B_5%,#1D283A_60%,#1C2739_90%,#2F2D49] text-white px-6 md:px-12">
-
             {/* Image Section */}
             <div className="flex items-center justify-center md:justify-start relative mt-10 md:mt-0 order-2 md:order-1">
                 <div className="relative p-1 w-[220px] h-[220px] sm:w-[260px] sm:h-[260px] md:w-[290px] md:h-[290px] rounded-full bg-gradient-to-r from-green-500 via-pink-500 to-purple-500 blur-lg" />

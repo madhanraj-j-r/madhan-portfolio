@@ -1,0 +1,18 @@
+.cursor-ripple {
+  position: fixed;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  background: #CE4EC3;
+  pointer-events: none;
+  transform: translate(-50%, -50%) scale(0);
+  animation: ripple 1s ease-out forwards;
+  z-index: 9999;
+}
+
+@keyframes ripple {
+  to {
+    transform: translate(-50%, -50%) scale(8);
+    opacity: 0;
+  }
+}

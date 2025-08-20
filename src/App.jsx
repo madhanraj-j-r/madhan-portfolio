@@ -8,6 +8,7 @@ import EducationBackground from './components/screens/EducationBackground';
 import Contact from './components/screens/Contact';
 import Footer from './components/screens/Footer';
 import Navbar from './components/screens/Navbar';
+import CursorRipple from './animation/CursorRipple';
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
@@ -22,7 +23,8 @@ function App() {
 
   return (
     <div>
-      <Navbar scrolled={scrolled}/>
+      <Navbar scrolled={scrolled} />
+      <CursorRipple />
       <Hero />
       <AboutMe />
       {/* <SkillsTechnologies />
